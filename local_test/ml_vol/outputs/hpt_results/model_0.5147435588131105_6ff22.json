@@ -1,0 +1,9 @@
+{
+    "loss": 0.5147435588131105,
+    "model_name": "model_0.5147435588131105_6ff22",
+    "space": {
+        "learning_rate": 1.0,
+        "loss": "square",
+        "n_estimators": 300.0
+    }
+}

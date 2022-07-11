@@ -1,0 +1,2 @@
+model,dataset_name,run_hpt,num_hpt_trials,rmse,r2,elapsed_time_in_minutes
+AdaBoostReg,white_wine,True,20,0.8309,0.1972,0.26

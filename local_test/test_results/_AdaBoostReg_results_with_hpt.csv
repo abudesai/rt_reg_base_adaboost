@@ -1,0 +1,7 @@
+model,dataset_name,run_hpt,num_hpt_trials,rmse,r2,elapsed_time_in_minutes
+AdaBoostReg,abalone,True,20,2.0208,0.43,0.24
+AdaBoostReg,auto_prices,True,20,1522.3025,0.9652,0.09
+AdaBoostReg,computer_activity,True,20,4.5699,0.9022,0.87
+AdaBoostReg,heart_disease,True,20,0.8848,0.4035,0.08
+AdaBoostReg,white_wine,True,20,0.8309,0.1972,0.26
+AdaBoostReg,ailerons,True,20,0.0002,0.6784,1.47

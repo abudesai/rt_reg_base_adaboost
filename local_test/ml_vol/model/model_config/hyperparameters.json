@@ -1,0 +1,5 @@
+{
+    "learning_rate": 0.18565996961296316,
+    "loss": "exponential",
+    "n_estimators": 300.0
+}
