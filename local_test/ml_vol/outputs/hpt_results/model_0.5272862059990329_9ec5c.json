@@ -1,9 +1,0 @@
-{
-    "loss": 0.5272862059990329,
-    "model_name": "model_0.5272862059990329_9ec5c",
-    "space": {
-        "learning_rate": 0.26715265739942823,
-        "loss": "square",
-        "n_estimators": 300.0
-    }
-}

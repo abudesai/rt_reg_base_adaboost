@@ -1,5 +1,5 @@
 {
-    "learning_rate": 0.18565996961296316,
-    "loss": "exponential",
-    "n_estimators": 300.0
+  "n_estimators": 250,
+  "learning_rate": 1e-2,
+  "loss": "square"
 }
