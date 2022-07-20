@@ -17,8 +17,8 @@ data_schema_path = os.path.join(prefix, 'inputs', 'data_config')
 model_path = os.path.join(prefix, 'model', 'artifacts')
 hyper_param_path = os.path.join(prefix, 'model', 'model_config')
 hpt_results_path = os.path.join(prefix, 'hpt', 'results')
-failure_path = os.path.join(prefix, 'outputs', 'tune_failure')
 output_path = os.path.join(prefix, 'outputs')
+failure_path = os.path.join(output_path, 'errors', 'tune_failure')
 
 channel_name='training'
 training_path = os.path.join(data_path, channel_name, "regressionBaseMainInput")
