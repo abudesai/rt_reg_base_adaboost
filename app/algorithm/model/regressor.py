@@ -13,7 +13,7 @@ model_fname = "model.save"
 
 MODEL_NAME = "AdaBoostReg"
 
-class AdaBoostReg(): 
+class Regressor(): 
     
     def __init__(self, n_estimators=100, learning_rate=1e-3, loss="square", **kwargs) -> None:
         self.n_estimators = int(n_estimators)
@@ -71,7 +71,7 @@ def save_model(model, model_path):
 
 def load_model(model_path): 
     try: 
-        model = AdaBoostReg.load(model_path)        
+        model = Regressor.load(model_path)        
     except: 
         raise Exception(f'''Error loading the trained {MODEL_NAME} model. 
             Do you have the right trained model in path: {model_path}?''')
